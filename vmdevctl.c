@@ -31,7 +31,7 @@ usage(void)
 int
 main(int argc, char *argv[])
 {
-	int i, ch, devid, onoff, found;
+	int i, ch, devid, onoff = 0, found;
 	vm_device_info dev;
 	extern int optind;
 
